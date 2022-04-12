@@ -143,7 +143,7 @@ describe('the JavaScript language', () => {
         return 'some example';
       }
 
-      //expect(example()).toEqual();
+      expect(example()).toEqual('some example');
     });
 
     it('can declare anonymous functions', () => {
